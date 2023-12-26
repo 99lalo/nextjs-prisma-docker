@@ -4,9 +4,10 @@ Special thanks to Eli Front's [blog post](https://medium.com/@elifront/best-next
 
 It is also very important sharp needs to be lock to 0.32.6, or else it will give you a crazy amount of warning if you're using Nextjs optimized images.
 
-To make thins simpler I left two commands in the package.json, one for development and one for production. The development command will run the app in development mode, and the production command will build the app and run it in production mode.
+To make things simpler I left two commands in the package.json, one for development and one for production. The development command will run the app in development mode, and the production command will build the app and run it in production mode.
 
-If you want to run the app in development mode, you can run `npm run docker:compose:dev` or `npm run docker:compose:prod`.
+If you want to run the app in development mode, you can run `npm run docker:compose:dev`.
+For running on production mode you can run `npm run docker:compose:prod`, but know that you won't have hot reloading.
 
 You also need to create your .env and .dockerignore files.
 
