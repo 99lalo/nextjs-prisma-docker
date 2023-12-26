@@ -7,6 +7,7 @@ It is also very important sharp needs to be lock to 0.32.6, or else it will give
 To make things simpler I left two commands in the package.json, one for development and one for production. The development command will run the app in development mode, and the production command will build the app and run it in production mode.
 
 If you want to run the app in development mode, you can run `npm run docker:compose:dev`.
+
 For running on production mode you can run `npm run docker:compose:prod`, but know that you won't have hot reloading.
 
 You also need to create your .env and .dockerignore files.
